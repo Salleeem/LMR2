@@ -1,0 +1,42 @@
+#menu img {
+    height: 79px;
+    width: 79px;
+    margin-left: 20px;
+}
+
+#menu {
+    width: 100%;
+    height: 85px;
+    background-color: black;
+}
+
+.LinkMenu {
+    color: lightpink;
+    font-size: 2em;
+}
+
+body {
+    color: crimson;
+background-color: lightpink;
+}
+
+.partel{
+    width:100%;
+    height:800px;
+    text-align: center;
+}
+
+.partel img{
+    width: 40%;
+    height: 400px;
+
+}
+
+    .partel h1{
+        color: red;
+    }
+
+    .partel{
+    font-family: 'Times New Roman', Times, serif text;
+    color: blueviolet;
+    }
