@@ -44,3 +44,11 @@ background-color: lightpink;
     font-family: 'Times New Roman', Times, serif text;
     color: blueviolet;
     }
+
+    header{
+        position: fixed;
+    top:0;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
