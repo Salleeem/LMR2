@@ -1,0 +1,18 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(179,211,249,1) 0%);
+
+text-align: center;
+}
+form input, form textarea{
+    background: rgb(194,221,254);
+background: linear-gradient(90deg, rgba(194,221,254,1) 0%, rgb(255, 209, 228) 0%);
+}
+
+.enviar {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1));
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}

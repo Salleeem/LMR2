@@ -1,0 +1,9 @@
+
+.login img{
+    text-align: center;
+   }
+
+   body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(176,0,106,1) 36%, rgba(255,0,177,1) 67%);
+   }

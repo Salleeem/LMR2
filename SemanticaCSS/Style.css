@@ -2,6 +2,7 @@
     height: 79px;
     width: 79px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 #menu {
@@ -13,6 +14,9 @@
 .LinkMenu {
     color: lightpink;
     font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 body {
