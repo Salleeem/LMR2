@@ -1,0 +1,103 @@
+#menu img {
+    height: 80px;
+    width: 160x;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#menu {
+    width: 100%;
+    background-color: #201f1f;
+    margin-top: 0;
+    display: table;
+}
+
+#menu a {
+
+    color: crimson;
+}
+
+.Banner {
+    background-image:
+      
+    url(   "https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/ab839420-28fa-41a0-80cf-c03b3b45903e/BR-pt-20230306-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ filter: blur(2px); 
+}
+
+
+.Banner h1 {
+    color: white;
+    margin-top: 200;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    filter: none;
+
+}
+
+
+.Banner h3 {
+    color: white;
+    margin-top: 200;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    filter: blur(0px);
+}
+
+.LinkMenu {
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.enviar {
+    background: crimson;
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1));
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
+    font-size: 30px;
+
+}
+
+body {
+    margin: 0;
+    margin-top: 0;
+    background-color: #201f1f;
+}
+
+@media screen and (max-width:768px) {
+
+    .Banner {
+        padding: 0px 20px 20px;
+    }
+
+    .Banner .texto {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .Banner h1 {
+        font-size: 18px;
+
+    }
+
+    .Banner p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .Banner img {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        float: none;
+
+
+    }
+}
