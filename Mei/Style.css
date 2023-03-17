@@ -17,23 +17,31 @@
     color: crimson;
 }
 
-.Banner {
-    background-image:
-      
-    url(   "https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/ab839420-28fa-41a0-80cf-c03b3b45903e/BR-pt-20230306-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+.Banner img{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/ab839420-28fa-41a0-80cf-c03b3b45903e/BR-pt-20230306-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
- filter: blur(2px); 
+    
+    
+
+}
+
+.Paia img{
+ height: 500px;
+ width: 700px;
+filter: none;
+
 }
 
 
 .Banner h1 {
     color: white;
-    margin-top: 200;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     filter: none;
+    margin-top: 200;
+
 
 }
 
@@ -100,4 +108,13 @@ body {
 
 
     }
-}
+
+
+     #Menu{
+
+        columns: 1;
+        align-self: start;
+
+
+     }
+ }
