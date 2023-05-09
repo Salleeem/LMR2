@@ -1,0 +1,17 @@
+.carousel-inner img{
+    width: 100%;
+    height: 40vh;
+}
+.card img{
+    
+}
+
+body {
+
+    background-color: antiquewhite;
+}
+
+.card {
+
+    background-color: bisque;
+}
