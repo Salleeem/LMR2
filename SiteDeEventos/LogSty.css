@@ -1,5 +1,5 @@
 .box-busca{ 
-    width: 34%;
+    width: 50vh;
     height: 100%;
     background-color: #ffffff;
     border-radius: 50px;
@@ -111,4 +111,39 @@ height: 50px;
    cursor: pointer;
    transition: .3s;
    
+}
+
+.carde{
+
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease 0s, height 0.3s ease 0s, width 0.3s ease 0s;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    
+    
+}
+
+.carde img{
+
+    aspect-ratio: auto 200 / 272;
+    
+    width: 200px;
+    height: 272px;
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease 0s, height 0.3s ease 0s, width 0.3s ease 0s;
+
+
+}
+
+.card-group{
+
+    justify-content: space-around;
 }
