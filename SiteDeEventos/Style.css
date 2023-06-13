@@ -147,5 +147,7 @@ height: 50px;
     justify-content: space-around;
 }
 
-
+body{
+   background-color: aqua;
+}
 
