@@ -131,7 +131,6 @@ height: 50px;
 
 .carde img{
 
-    aspect-ratio: auto 200 / 272;
     
     width: 200px;
     height: 272px;
@@ -147,3 +146,19 @@ height: 50px;
 
     justify-content: space-around;
 }
+
+body{
+    background-image: url(https://i.gifer.com/76YS.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container {
+    border-radius: 10px;
+    
+     padding: 20px;
+ 
+     background-color: rgba(27, 55, 100, 0.2); 
+       
+       
+ }

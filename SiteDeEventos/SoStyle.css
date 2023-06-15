@@ -29,7 +29,6 @@
     height: 45px;
 
 }
-
 .search-box:hover .search-box-input {
     
     padding-left: 2em;
@@ -88,20 +87,7 @@
 }
   
 
-p{
-    color: white;
-}
 
-h2{
-    color: white;
-}
-
-li{
-    color: white;
-}
-a{
-    color: wheat;
-}
 
 
 
@@ -128,30 +114,59 @@ height: 50px;
 
 
 
-.container {
-   border-radius: 10px;
-   
-    padding: 20px;
 
-    background-color: rgba(27, 55, 100, 0.2); 
-      
-      
-}
-
-.row{
-    
-    padding: 15px;
-}
-
-.button{
-
-width: 10%;
-
-}
 body{
     background-image: url(https://i.gifer.com/76YS.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    
 
+}
+
+.container {
+    border-radius: 10px;
+    
+     padding: 20px;
+ 
+     background-color: rgba(27, 55, 100, 0.2); 
+       
+       
+ }
+  
+ 
+  
+  .image-container img {
+    width: 260px;
+    height: 260px;
+  }
+  
+  .card-content {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  .image-container{
+    display: flex;
+    justify-content: left;
+  
+  }
+
+.texobla{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+  font-size: medium;
+ 
+}
+
+.container p{
+    margin-left: 30px;
 }
