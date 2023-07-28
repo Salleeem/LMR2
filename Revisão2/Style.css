@@ -1,0 +1,59 @@
+header{
+   width: 100%;
+   height: 10vh;
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+body{
+   background-color: antiquewhite;
+   margin: 0;
+ }
+ header img{
+   height: 100%;
+
+ }
+
+ .menu1{
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .linkmenu{
+   color: aliceblue;
+   text-decoration: none;
+   font-size: 1.5vw;
+ }
+
+ .hamb{
+   display: none;
+ }
+
+ .menuHB{
+   display: none;
+ }
+
+ @media screen and(max-width:1024) {
+   .menu1{
+      display: none;
+   }
+
+   .hamb{
+      display: inline;
+      
+   }
+
+   .hamb:hover ~ .menuHB{
+      display: block;
+   }
+
+
+
+
+
+
+
+ }
