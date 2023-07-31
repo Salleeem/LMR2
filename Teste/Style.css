@@ -2,3 +2,22 @@
     width: 250px;
     height: 87px;
 }
+body{
+     color: aliceblue;
+
+   
+}
+
+header{
+    background-color: #282C44;
+    display: flex;
+justify-content: space-betwee;    
+}
+
+.header img{
+   margin-right: 90%;
+}
+
+.resto{
+    justify-content: end;
+}
