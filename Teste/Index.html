@@ -2,39 +2,112 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blaze</title>
-  <link rel="shortcut icon"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaze</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon"
     href="data:image/png;base64,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">
-  <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
-  <header class="">
-    <nav class="navbar navbar-expand-lg text-light" data-bs-theme="dark">
-      <a class="navbar-brand" href="#">
-        <img src="https://universodaaposta.com/wp-content/uploads/2022/01/26bf1532f14a490c9b3486aa89a828cc-1.png"
-          width="240" height="80" alt="">
-      </a>
-      <form class="form-inline my-2 my-lg-0">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <header class="text-white">
+        <nav class="navbar navbar-expand">
+            <a class="navbar-brand text-white" href="#">
+                <img src="https://universodaaposta.com/wp-content/uploads/2022/01/26bf1532f14a490c9b3486aa89a828cc-1.png" width="240" height="80" alt="">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Sobre nós</a>
+                <a class="nav-item nav-link active" href="#">Entrar</a>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cadastre-se</button>
+              </div>
+            </div>
+          </nav>
+    </header>
 
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Sobre nós</a>
-            <a class="nav-item nav-link active" href="#">Entrar</a>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cadastre-se</button>
-          </div>
-        </form>
+    <div>
+        ‎
+    </div>
+    <div>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    </div>
+
+    <div class><h1 class="text-white">Originais</h1></div>
+    <div class="card-group">
+      
+        
+        <div class="carde">
+            <img class="card-img" src="https://d3fwl9ttzumvxe.cloudfront.net/games/5d3d08656fedb39a696d8edfa12c7040.png" alt="Card image">
+                <div class="card-img-overlay">
+                    <h3 class="card-title">Dice</h3>
+                </div>
         </div>
-    </nav>
-  </header>
+
+    
+       
+
+        <div class="carde">
+            <img class="card-img" src="https://d3fwl9ttzumvxe.cloudfront.net/games/2f18f52868c92fc1c9325e2f6f8cd81e.png" alt="Card image">
+            <div class="card-img-overlay" >
+                <h3 class="card-title">Double</h3>
+            </div>
+        </div>
+
+
+        <div class="carde">
+            <img class="card-img" src="https://d3fwl9ttzumvxe.cloudfront.net/games/20742bda52d2b13a33bf1e57182c5eb4.png" alt="Card image">
+            <div class="card-img-overlay">
+                <h3 class="card-title">Mines</h3>
+            </div>
+        </div>
+
+     
+        <div class="carde">
+            <img class="card-img" src="https://d3fwl9ttzumvxe.cloudfront.net/games/e6adf4a27ba6fb18a65244fb74ffe3e3.png" alt="Card image">
+            <div class="card-img-overlay">
+                <h2 class="card-title">Slide</h2>
+            </div>
+        </div>
+
+
+        <div class="carde">
+            <img class="card-img" src="https://d3fwl9ttzumvxe.cloudfront.net/games/2183ed1ae2b2eac427c48867dcda7b71.png" alt="Card image">
+            <div class="card-img-overlay">
+                <h3 class="card-title">Crash</h3>
+            </div>
+        </div>
+
+
+        <div class="carde">
+            <img class="card-img" src="https://images.sympla.com.br/5dbc8b440143e.jpg" alt="Card image">
+            <div class="card-img-overlay">
+                <h2 class="card-title">Curitiba</h2>
+            </div>
+        </div>
+
+    
+
+        <div class="carde">
+            <img class="card-img" src="https://images.sympla.com.br/5dbc8ae79ba97.jpg" alt="Card image">
+            <div class="card-img-overlay">
+                <h2 class="card-title">Brasilia</h2>
+            </div>
+        </div>
+
+
+    </div>
+
 
 
 </body>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 
 </html>
